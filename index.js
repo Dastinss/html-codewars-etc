@@ -671,14 +671,40 @@ const people = [
 // console.log(customMap([1,2,3],e=> e+1)) // [2, 3, 4]
 
 //кастомный filter:
-function customFiler( arr, callback ) {
-    const arrNew = [];
-    for (let i = 0; i<arr.length; i++){
-        if (arr, i, callback(arr[i])) {
-            arrNew.push(arr[i])
-        }
-    }
-    return arrNew
-}
+// function customFiler( arr, callback ) {
+//     const arrNew = [];
+//     for (let i = 0; i<arr.length; i++){
+//         if (arr, i, callback(arr[i])) {
+//             arrNew.push(arr[i])
+//         }
+//     }
+//     return arrNew
+// }
+//
+// console.log(customFiler([1,2,3], e => e !== 3))
 
-console.log(customFiler([1,2,3], e => e !== 3))
+
+// codeWars altERnaTIng cAsE <=> ALTerNAtiNG CaSe
+//  function toAltCase (str) {
+//     // Define your method here :)
+//      let arr = [];
+//      let word = str.split('')
+//
+//      for (let i=0; i<str.length; i++) {
+//         if (word[i].toLowerCase() === word[i]) {
+//             arr.push(word[i].toUpperCase())
+//         } else if (word[i].toUpperCase() === word[i]) {
+//             arr.push(word[i].toLowerCase())
+//          } else if (!isNaN(word[i])) {
+//             arr.push(word[i])
+//         }
+//      }
+//      return arr.join('')
+// }
+//
+// toAltCase ("hello world")
+// toAltCase ("HELLO WORLD")
+// toAltCase ("hello WORLD")
+// toAltCase ("HeLLo WoRLD")
+// toAltCase ("12345")
+// toAltCase ("1a2b3c4d5e")

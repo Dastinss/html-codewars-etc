@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5c805bed-69bb-40dc-bff9-3f36ef1a9562" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sandbox-it-kamasutra/html/1-cats.html" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox-it-kamasutra/html/1-cats.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +67,7 @@
       <workItem from="1694946085636" duration="47318000" />
       <workItem from="1699310918034" duration="3210000" />
       <workItem from="1699362444587" duration="8866000" />
-      <workItem from="1699468135283" duration="414000" />
+      <workItem from="1699468135283" duration="2931000" />
     </task>
     <task id="LOCAL-00001" summary="feat: before freecodecamp tasks added">
       <created>1699310983826</created>
@@ -105,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699370005804</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: #1 task 'Cats photo' - done step 50">
+      <created>1699468623318</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699468623318</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +120,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: before freecodecamp tasks added" />
     <MESSAGE value="feat: #1 task 'Cats photo' - done step 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: #1 task 'Cats photo' - done step 12" />
+    <MESSAGE value="feat: #1 task 'Cats photo' - done step 50" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: #1 task 'Cats photo' - done step 50" />
   </component>
 </project>

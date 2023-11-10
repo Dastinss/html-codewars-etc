@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c805bed-69bb-40dc-bff9-3f36ef1a9562" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sandbox-it-kamasutra/html/sea-battle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox-it-kamasutra/html/2-cafe-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox-it-kamasutra/html/2-cafe-menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox-it-kamasutra/html/2-cafe-menu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox-it-kamasutra/html/2-cafe-menu.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +74,7 @@
       <workItem from="1694946085636" duration="47318000" />
       <workItem from="1699310918034" duration="3210000" />
       <workItem from="1699362444587" duration="8866000" />
-      <workItem from="1699468135283" duration="13234000" />
+      <workItem from="1699468135283" duration="17629000" />
     </task>
     <task id="LOCAL-00001" summary="feat: before freecodecamp tasks added">
       <created>1699310983826</created>
@@ -130,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699539860718</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: # Battle Ship in progress">
+      <created>1699572101909</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699572101909</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +151,7 @@
     <MESSAGE value="feat: #1 task 'Cats photo' - done step 50" />
     <MESSAGE value="feat: #1 task 'Cats photo' - done" />
     <MESSAGE value="feat: #2 Building Cafe Menu in progress - 20 step done" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: #2 Building Cafe Menu in progress - 20 step done" />
+    <MESSAGE value="feat: # Battle Ship in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: # Battle Ship in progress" />
   </component>
 </project>

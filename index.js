@@ -721,31 +721,38 @@
 // }
 
 //8kyu interpreters: HQ9+
+// function HQ9(code) {
+// 	switch (code) {
+// 		case 'H': return 'Hello World!';
+// 		case 'Q': return code;
+// 		case '9': return beer(99);
+// 		default: return undefined;
+// 	}
+// }
+//
+// function beer(count) {
+// 	if (count === 2) {
+// 		return '2 bottles of beer on the wall, 2 bottles of beer.\n' +
+// 			'Take one down and pass it around, 1 bottle of beer on the wall.\n' +
+// 			'1 bottle of beer on the wall, 1 bottle of beer.\n' +
+// 			'Take one down and pass it around, no more bottles of beer on the wall.\n' +
+// 			'No more bottles of beer on the wall, no more bottles of beer.\n' +
+// 			'Go to the store and buy some more, 99 bottles of beer on the wall.';
+// 	} else {
+// 		return `${count} bottles of beer on the wall, ${count} bottles of beer.\n` +
+// 			`Take one down and pass it around, ${count - 1} bottles of beer on the wall.\n` +
+// 			beer(count - 1);
+// 	}
+// }
+//
+// console.log( HQ9( "9" ) ) // All song long
+// console.log( HQ9( "H" ) ) // "H"
+// console.log( HQ9( "Q" ) ) // "Q"
 
-function HQ9(code) {
-	switch (code) {
-		case 'H': return 'Hello World!';
-		case 'Q': return code;
-		case '9': return beer(99);
-		default: return undefined;
-	}
+// 8 kyu To square(root) or not to square(root)
+function squareOrSquareRoot(array) {
+	return array.map(e => Number.isInteger(Math.sqrt(e)) ? Math.sqrt(e) : e*e);
 }
 
-function beer(count) {
-	if (count === 2) {
-		return '2 bottles of beer on the wall, 2 bottles of beer.\n' +
-			'Take one down and pass it around, 1 bottle of beer on the wall.\n' +
-			'1 bottle of beer on the wall, 1 bottle of beer.\n' +
-			'Take one down and pass it around, no more bottles of beer on the wall.\n' +
-			'No more bottles of beer on the wall, no more bottles of beer.\n' +
-			'Go to the store and buy some more, 99 bottles of beer on the wall.';
-	} else {
-		return `${count} bottles of beer on the wall, ${count} bottles of beer.\n` +
-			`Take one down and pass it around, ${count - 1} bottles of beer on the wall.\n` +
-			beer(count - 1);
-	}
-}
 
-console.log( HQ9( "9" ) ) // All song long
-console.log( HQ9( "H" ) ) // "H"
-console.log( HQ9( "Q" ) ) // "Q"
+console.log(squareOrSquareRoot([ 4, 3, 9, 7, 2, 1 ])) // [2, 9, 3, 49, 4, 1]

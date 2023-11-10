@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c805bed-69bb-40dc-bff9-3f36ef1a9562" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox-it-kamasutra/html/sea-battle.html" beforeDir="false" />
-    </list>
+    <list default="true" id="5c805bed-69bb-40dc-bff9-3f36ef1a9562" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +73,7 @@
       <workItem from="1694946085636" duration="47318000" />
       <workItem from="1699310918034" duration="3210000" />
       <workItem from="1699362444587" duration="8866000" />
-      <workItem from="1699468135283" duration="20797000" />
+      <workItem from="1699468135283" duration="20868000" />
     </task>
     <task id="LOCAL-00001" summary="feat: before freecodecamp tasks added">
       <created>1699310983826</created>
@@ -148,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699641767319</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: BattleShip- O`Reilly in progress">
+      <created>1699659705643</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1699659705643</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +166,7 @@
     <MESSAGE value="feat: #2 Building Cafe Menu in progress - 20 step done" />
     <MESSAGE value="feat: # Battle Ship in progress" />
     <MESSAGE value="feat: #2 Building Cafe Menu in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: #2 Building Cafe Menu in progress" />
+    <MESSAGE value="feat: BattleShip- O`Reilly in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: BattleShip- O`Reilly in progress" />
   </component>
 </project>

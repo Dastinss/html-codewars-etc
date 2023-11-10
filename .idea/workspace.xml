@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5c805bed-69bb-40dc-bff9-3f36ef1a9562" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox-it-kamasutra/html/2-cafe-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox-it-kamasutra/html/2-cafe-menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox-it-kamasutra/html/2-cafe-menu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox-it-kamasutra/html/2-cafe-menu.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox-it-kamasutra/html/sea-battle.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +44,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Pogramming\it-kamasutra.com\react-kbazda-kak-prosto\projects\html-codewars-etc\sandbox-it-kamasutra\html" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Pogramming\it-kamasutra.com\react-kbazda-kak-prosto\projects\html-codewars-etc\sandbox-it-kamasutra\html\BattleShip" />
+      <recent name="D:\Pogramming\it-kamasutra.com\react-kbazda-kak-prosto\projects\html-codewars-etc\sandbox-it-kamasutra\html" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
@@ -74,7 +76,7 @@
       <workItem from="1694946085636" duration="47318000" />
       <workItem from="1699310918034" duration="3210000" />
       <workItem from="1699362444587" duration="8866000" />
-      <workItem from="1699468135283" duration="17629000" />
+      <workItem from="1699468135283" duration="20797000" />
     </task>
     <task id="LOCAL-00001" summary="feat: before freecodecamp tasks added">
       <created>1699310983826</created>
@@ -139,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699572101909</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: #2 Building Cafe Menu in progress">
+      <created>1699641767319</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699641767319</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +161,7 @@
     <MESSAGE value="feat: #1 task 'Cats photo' - done" />
     <MESSAGE value="feat: #2 Building Cafe Menu in progress - 20 step done" />
     <MESSAGE value="feat: # Battle Ship in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: # Battle Ship in progress" />
+    <MESSAGE value="feat: #2 Building Cafe Menu in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: #2 Building Cafe Menu in progress" />
   </component>
 </project>

@@ -750,9 +750,20 @@
 // console.log( HQ9( "Q" ) ) // "Q"
 
 // 8 kyu To square(root) or not to square(root)
-function squareOrSquareRoot(array) {
-	return array.map(e => Number.isInteger(Math.sqrt(e)) ? Math.sqrt(e) : e*e);
+// function squareOrSquareRoot(array) {
+// 	return array.map(e => Number.isInteger(Math.sqrt(e)) ? Math.sqrt(e) : e*e);
+// }
+// console.log(squareOrSquareRoot([ 4, 3, 9, 7, 2, 1 ])) // [2, 9, 3, 49, 4, 1]
+
+//7 kyu Complementary DNA
+function DNAStrand(dna){
+	//your code here
+	return dna.split( '' ).map(s =>
+	s==='A' ? s = 'T' :
+	s==='T' ? s = 'A' :
+	s==='C' ? s = 'G' :
+	s==='G' ? s = 'C' :
+	undefined).join('')
 }
 
-
-console.log(squareOrSquareRoot([ 4, 3, 9, 7, 2, 1 ])) // [2, 9, 3, 49, 4, 1]
+console.log(DNAStrand("ATTGC")) // TAACG

@@ -756,14 +756,47 @@
 // console.log(squareOrSquareRoot([ 4, 3, 9, 7, 2, 1 ])) // [2, 9, 3, 49, 4, 1]
 
 //7 kyu Complementary DNA
-function DNAStrand(dna){
-	//your code here
-	return dna.split( '' ).map(s =>
-	s==='A' ? s = 'T' :
-	s==='T' ? s = 'A' :
-	s==='C' ? s = 'G' :
-	s==='G' ? s = 'C' :
-	undefined).join('')
+// function DNAStrand(dna){
+// 	//your code here
+// 	return dna.split( '' ).map(s =>
+// 	s==='A' ? s = 'T' :
+// 	s==='T' ? s = 'A' :
+// 	s==='C' ? s = 'G' :
+// 	s==='G' ? s = 'C' :
+// 	undefined).join('')
+// }
+//
+// console.log(DNAStrand("ATTGC")) // TAACG
+
+//7 kyu Credit Card Mask
+// return masked string
+// function maskify( cc ) {
+// 	const symbol = '#';
+// 	if (cc.length < 4) {
+// 		return cc
+// 	} else {
+// 		return symbol.repeat(cc.length-4) + cc.slice(-4)
+// 	}
+// }
+//
+// console.log( maskify( '4556364607935616' ) ) // ############5616
+// console.log( maskify( '1111' ) ) // 1111
+
+function caseInSwitch(val) {
+	let answer = "";
+	// Only change code below this line
+	switch (val) {
+		case 1: answer = 'alpha';
+			break;
+		case 2: answer = 'beta';
+			break;
+		case 3: answer = 'gamma';
+			break;
+		case 4: answer = 'delta';
+			break;
+	}
+	// Only change code above this line
+	return answer;
 }
 
-console.log(DNAStrand("ATTGC")) // TAACG
+console.log(caseInSwitch(4));

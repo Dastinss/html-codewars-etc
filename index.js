@@ -815,32 +815,41 @@
 // console.log(sumTwoSmallestNumbers([3, 87, 45, 12, 7])) //10
 
 //7 kyu Beginner Series #3 Sum of Numbers
-function getSum( a, b )
-//Good luck!
-{
-	if (a === b) {
-		return a
-	} else if ((a - b === 1) || (a - b === -1)) {
-		return a + b
-	} else {
-		const arr = [];
-		if (a < b) {
-			for (let i = a; i <= b; i++) {
-				arr.push( i )
-			}
-			return arr.reduce( function ( a, b ) {
-				return a + b
-			} )
-		} else {
-			for (let i = b; i <= a; i++) {
-				arr.push( i )
-			}
-			return arr.reduce( function ( a, b ) {
-				return a + b
-			} )
-		}
-	}
+// function getSum( a, b )
+// //Good luck!
+// {
+// 	if (a === b) {
+// 		return a
+// 	} else if ((a - b === 1) || (a - b === -1)) {
+// 		return a + b
+// 	} else {
+// 		const arr = [];
+// 		if (a < b) {
+// 			for (let i = a; i <= b; i++) {
+// 				arr.push( i )
+// 			}
+// 			return arr.reduce( function ( a, b ) {
+// 				return a + b
+// 			} )
+// 		} else {
+// 			for (let i = b; i <= a; i++) {
+// 				arr.push( i )
+// 			}
+// 			return arr.reduce( function ( a, b ) {
+// 				return a + b
+// 			} )
+// 		}
+// 	}
+// }
+//
+// console.log( getSum( 0, 5 ) )
+// console.log( getSum( 3, -1 ) )
+
+//7 kyu Two to One
+function longest(s1, s2) {
+	// your code
+	const arr1=[]
+	return arr1.push(s1,s2)
 }
 
-console.log( getSum( 0, 5 ) )
-console.log( getSum( 3, -1 ) )
+console.log(longest('xyaabbbccccdefww','xxxxyyyyabklmopq'))

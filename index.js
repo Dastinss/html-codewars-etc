@@ -782,21 +782,65 @@
 // console.log( maskify( '4556364607935616' ) ) // ############5616
 // console.log( maskify( '1111' ) ) // 1111
 
-function caseInSwitch(val) {
-	let answer = "";
-	// Only change code below this line
-	switch (val) {
-		case 1: answer = 'alpha';
-			break;
-		case 2: answer = 'beta';
-			break;
-		case 3: answer = 'gamma';
-			break;
-		case 4: answer = 'delta';
-			break;
+// function caseInSwitch(val) {
+// 	let answer = "";
+// 	// Only change code below this line
+// 	switch (val) {
+// 		case 1: answer = 'alpha';
+// 			break;
+// 		case 2: answer = 'beta';
+// 			break;
+// 		case 3: answer = 'gamma';
+// 			break;
+// 		case 4: answer = 'delta';
+// 			break;
+// 	}
+// 	// Only change code above this line
+// 	return answer;
+// }
+//
+// console.log(caseInSwitch(4));
+
+//7 kyu Sum of two lowest positive integers
+// function sumTwoSmallestNumbers(numbers) {
+// 	//Code here
+// 	const arr = numbers.sort(function ( a, b){
+// 		return a-b
+// 	});
+// 	return arr[0]+arr[1];
+// }
+//
+// console.log(sumTwoSmallestNumbers([5, 8, 12, 19, 22])) //13
+// console.log(sumTwoSmallestNumbers([15, 28, 4, 2, 43])) //6
+// console.log(sumTwoSmallestNumbers([3, 87, 45, 12, 7])) //10
+
+//7 kyu Beginner Series #3 Sum of Numbers
+function getSum( a, b )
+//Good luck!
+{
+	if (a === b) {
+		return a
+	} else if ((a - b === 1) || (a - b === -1)) {
+		return a + b
+	} else {
+		const arr = [];
+		if (a < b) {
+			for (let i = a; i <= b; i++) {
+				arr.push( i )
+			}
+			return arr.reduce( function ( a, b ) {
+				return a + b
+			} )
+		} else {
+			for (let i = b; i <= a; i++) {
+				arr.push( i )
+			}
+			return arr.reduce( function ( a, b ) {
+				return a + b
+			} )
+		}
 	}
-	// Only change code above this line
-	return answer;
 }
 
-console.log(caseInSwitch(4));
+console.log( getSum( 0, 5 ) )
+console.log( getSum( 3, -1 ) )

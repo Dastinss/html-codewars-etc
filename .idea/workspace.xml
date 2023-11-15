@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c805bed-69bb-40dc-bff9-3f36ef1a9562" name="Changes" comment="">
+    <list default="true" id="5c805bed-69bb-40dc-bff9-3f36ef1a9562" name="Changes" comment="feat: #3 Color Markers in progress : step #40 done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox-it-kamasutra/html/3-color-markers.html" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox-it-kamasutra/html/3-color-markers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox-it-kamasutra/html/3-color-markers.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox-it-kamasutra/html/3-color-markers.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,17 +31,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Pogramming/it-kamasutra.com/react-kbazda-kak-prosto/projects/html-codewars-etc/sandbox-it-kamasutra/html",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Pogramming/it-kamasutra.com/react-kbazda-kak-prosto/projects/html-codewars-etc/sandbox-it-kamasutra/html&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Pogramming\it-kamasutra.com\react-kbazda-kak-prosto\projects\html-codewars-etc\sandbox-it-kamasutra\html" />
@@ -76,7 +78,8 @@
       <workItem from="1694946085636" duration="47318000" />
       <workItem from="1699310918034" duration="3210000" />
       <workItem from="1699362444587" duration="8866000" />
-      <workItem from="1699468135283" duration="46604000" />
+      <workItem from="1699468135283" duration="54827000" />
+      <workItem from="1700049490222" duration="1440000" />
     </task>
     <task id="LOCAL-00001" summary="feat: before freecodecamp tasks added">
       <created>1699310983826</created>
@@ -183,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699834660043</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat: #3 Color Markers in progress : step #40 done">
+      <created>1699902274014</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1699902274014</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +212,7 @@
     <MESSAGE value="feat: #2 Building Cafe Menu in progress step#58 done" />
     <MESSAGE value="feat: #2 Building Cafe Menu done" />
     <MESSAGE value="feat: #3 Color Markers in progress : step #30 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: #3 Color Markers in progress : step #30 done" />
+    <MESSAGE value="feat: #3 Color Markers in progress : step #40 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: #3 Color Markers in progress : step #40 done" />
   </component>
 </project>

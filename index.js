@@ -846,10 +846,38 @@
 // console.log( getSum( 3, -1 ) )
 
 //7 kyu Two to One
-function longest(s1, s2) {
-	// your code
-	const arr1=[]
-	return arr1.push(s1,s2)
+// function longest(s1, s2) {
+// 	// your code
+// 	// const arr1 = [];
+// 	// let sym = (s1+s2).split('').sort()
+// 	let sym = Array.from(new Set((s1+s2).split('').sort())).join('')
+// 	// arr1.push(symbol[0])
+// 	// for (let i=0; i<symbol.length;i++){
+// 	// 	symbol = symbol[i]
+// 	// 	if (symbol[i+1] !== symbol[i]) {
+// 	// 		arr1.push(symbol[i+1])
+// 	// 	}
+//
+// 	// }
+// // return arr1
+// return sym
+// }
+
+//7 kyu Two to One
+// function longest(s1, s2) {
+// 	return Array.from(new Set((s1+s2).split('').sort())).join('')
+// }
+//
+// console.log(longest('xyaabbbccccdefww','xxxxyyyyabklmopq'))
+
+//7 kyu Friend or Foe?
+function friend(friends){
+	//your code here
+	return  friends.split();
+// 	for (let i=0; i<friends.length; i++) {
+// 		return friends.replace(friends[i].length !==4, '')
+// 	}
+// return friends
 }
 
-console.log(longest('xyaabbbccccdefww','xxxxyyyyabklmopq'))
+console.log(friend("Ryan", "Kieran", "Mark"))

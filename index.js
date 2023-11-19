@@ -871,13 +871,80 @@
 // console.log(longest('xyaabbbccccdefww','xxxxyyyyabklmopq'))
 
 //7 kyu Friend or Foe?
-function friend(friends){
-	//your code here
-	return  friends.split();
-// 	for (let i=0; i<friends.length; i++) {
-// 		return friends.replace(friends[i].length !==4, '')
+// function friend(friends){
+// 	//your code here
+// 	return  friends.split();
+// // 	for (let i=0; i<friends.length; i++) {
+// // 		return friends.replace(friends[i].length !==4, '')
+// // 	}
+// // return friends
+// }
+//
+// console.log(friend("Ryan", "Kieran", "Mark"))
+
+const contacts = [
+	{
+		firstName: "Akira",
+		lastName: "Laine",
+		number: "0543236543",
+		likes: ["Pizza", "Coding", "Brownie Points"],
+	},
+	{
+		firstName: "Harry",
+		lastName: "Potter",
+		number: "0994372684",
+		likes: ["Hogwarts", "Magic", "Hagrid"],
+	},
+	{
+		firstName: "Sherlock",
+		lastName: "Holmes",
+		number: "0487345643",
+		likes: ["Intriguing Cases", "Violin"],
+	},
+	{
+		firstName: "Kristian",
+		lastName: "Vos",
+		number: "unknown",
+		likes: ["JavaScript", "Gaming", "Foxes"],
+	},
+];
+//
+// function lookUpProfile( name, prop ) {
+// 	// Only change code below this line
+// 	for (let i = 0; i < contacts.length; i++) {
+// 		// console.log(contacts.length)
+// 		if (contacts[ i ].hasOwnProperty( 'firstName' ) === true) {
+// 			if (contacts[ i ].firstName === name) {
+// 				if (contacts[ i ].hasOwnProperty(prop)) {
+// 					return contacts[ i ][prop]
+// 				} else {
+// 					return 'No such property'
+// 				}
+// 			} else {
+// 				return 'No such contact'
+// 			}
+// 		}
+// 		// Only change code above this line
 // 	}
-// return friends
+// }
+
+function lookUpProfile( name, prop ) {
+	for (let i = 0; i < contacts.length; i++) {
+		if (contacts[ i ].firstName === name) {
+			if (contacts[ i ].hasOwnProperty( prop )) {
+				return contacts[ i ][ prop ]
+			} else {
+				return 'No such property'
+			}
+		}
+	}
+	return 'No such contact'
 }
 
-console.log(friend("Ryan", "Kieran", "Mark"))
+console.log( lookUpProfile( "Akira", "likes" ) );
+console.log( lookUpProfile( "Kristian", "lastName" ) );
+console.log( lookUpProfile( "Sherlock", "likes" ) );
+console.log( contacts[ 0 ].hasOwnProperty( 'firstName' ) );
+console.log( (contacts[ 0 ][ 'firstName' ] === "Akira") );
+console.log( (contacts[ 0 ].hasOwnProperty( 'likes' )) );
+console.log( (contacts[ 0 ].likes) );

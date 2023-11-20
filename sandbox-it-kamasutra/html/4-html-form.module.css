@@ -18,6 +18,7 @@ form {
     max-width: 500px;
     min-width: 300px;
     margin: 0 auto;
+    padding-bottom: 2em; /*добавили 2ем к концу формы, чтобы кнопка последняя не "сидела" на дне*/
 }
 
 fieldset {
@@ -40,13 +41,14 @@ textarea,
 select {
     margin: 10px 0 0 0;
     width: 100%;
+    min-height: 2em;
 }
 
 input, textarea {
     background-color: #0a0a23;
     border: 1px solid #0a0a23;
     color: #ffffff;
-    min-height: 2em;
+
 }
 
 .inline {
@@ -54,4 +56,23 @@ input, textarea {
     margin: 0 0.5em 0 0;/*увеличил пространство справа между точной радио и текстом до 0.5ем*/
     vertical-align: middle; /*поставил точки радио напротив текста (раньше они біли чуть выше*/
 
+}
+
+input[type="submit"] { /*работа с кнопкой "submit"*/
+    display: block;
+    width: 60%;
+    margin: 1em auto; /*сдвинули кнопку по центру + 1em on the top and bottom,*/
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+}
+
+input[type="file"]{ /*привели в соответсвие input файл с другими инпутами, поскольку он по умолчанию всегда меньше*/
+    padding: 1px 2px;
+}
+
+a {
+    color: #dfdfe2;
 }

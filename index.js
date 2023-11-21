@@ -917,9 +917,15 @@
 //7 kyu Friend or Foe?
 function friend(friends){
 	//your code here
-	return friends.length;
+	for (let i = 0; i < friends.length; i++) {
+		if (friends[i].lenght < 4) {
+			return true
+		} else {
+			return false
+		}
+	}
 
 
 }
 
-console.log(friend("Ryan", "Kieran", "Mark"))
+console.log(friend(["Ryan", "Kieran", "Mark"]))

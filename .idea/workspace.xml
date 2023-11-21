@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c805bed-69bb-40dc-bff9-3f36ef1a9562" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sandbox-it-kamasutra/html/5-certificate-survey-form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox-it-kamasutra/html/4-html-form.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox-it-kamasutra/html/4-html-form.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,7 @@
       <workItem from="1699362444587" duration="8866000" />
       <workItem from="1699468135283" duration="54827000" />
       <workItem from="1700049490222" duration="13579000" />
-      <workItem from="1700407979013" duration="13109000" />
+      <workItem from="1700407979013" duration="16825000" />
     </task>
     <task id="LOCAL-00001" summary="feat: before freecodecamp tasks added">
       <created>1699310983826</created>
@@ -228,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700423232525</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="feat: #4 HTML Form done">
+      <created>1700508803227</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1700508803227</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +259,7 @@
     <MESSAGE value="feat: #4 HTML Form in progress : step #30 done" />
     <MESSAGE value="feat: #4 HTML Form in progress : step #40 done" />
     <MESSAGE value="feat: #4 HTML Form in progress : step #55 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: #4 HTML Form in progress : step #55 done" />
+    <MESSAGE value="feat: #4 HTML Form done" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: #4 HTML Form done" />
   </component>
 </project>

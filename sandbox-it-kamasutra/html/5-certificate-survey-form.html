@@ -8,9 +8,29 @@
 <h1 id='title'>Survey Form</h1>
 <p id='description'>Please fill out this form with the required information</p>
 <form id='survey-form'>
-    <label for='name' id='name-label'><input id='name' type='text' required> Name</input></label>
-    <label for='email' id='email-label'><input id='email' type='email' required> Email</input></label>
-    <label for='number-label' id='number-label'><input id='number' type='number' min='18' max='120'> Number</input></label>
+    <label for='name' id='name-label'><input id='name' type='text' placeholder='Enter your name' required> Name</label>
+    <label for='email' id='email-label'><input id='email' type='email' placeholder='Enter your e-mail' required>
+        Email</label>
+    <label for='number-label' id='number-label'><input id='number' type='number' min='18' max='120'
+                                                       placeholder='Enter your age'> Number</label>
+    <label> What is your sex?
+        <select id='dropdown'>
+            <option>(select one)</option>
+            <option>no matter</option>
+            <option>male</option>
+            <option>female</option>
+            <option>other</option>
+        </select></label>
+    <label> Do you have pets?
+        <label><input type='radio' name='pets' value='Yes'> Yes</label>
+        <label><input type='radio' name='pets' value='No'> No</label>
+    </label>
+    <label> Do you agree to share you personal information?
+        <input type='checkbox' value='personal information'>
+    </label>
+    <label> Have you read our requirements?
+        <input type='checkbox' value='requirements'>
+    </label>
 </form>
 </body>
 </html>

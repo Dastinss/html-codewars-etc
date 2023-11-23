@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c805bed-69bb-40dc-bff9-3f36ef1a9562" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sandbox-it-kamasutra/html/6-css-box-model.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox-it-kamasutra/html/5-certificate-survey-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox-it-kamasutra/html/5-certificate-survey-form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,17 +29,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Pogramming/it-kamasutra.com/react-kbazda-kak-prosto/projects/html-codewars-etc",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Pogramming/it-kamasutra.com/react-kbazda-kak-prosto/projects/html-codewars-etc&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Pogramming\it-kamasutra.com\react-kbazda-kak-prosto\projects\html-codewars-etc\sandbox-it-kamasutra\html" />
@@ -79,7 +79,8 @@
       <workItem from="1699468135283" duration="54827000" />
       <workItem from="1700049490222" duration="13579000" />
       <workItem from="1700407979013" duration="16905000" />
-      <workItem from="1700688029267" duration="3639000" />
+      <workItem from="1700688029267" duration="3681000" />
+      <workItem from="1700773246506" duration="758000" />
     </task>
     <task id="LOCAL-00001" summary="feat: before freecodecamp tasks added">
       <created>1699310983826</created>
@@ -249,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700689854415</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="feat: #5 Survey Form- Certificate done">
+      <created>1700691956342</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1700691956342</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +284,7 @@
     <MESSAGE value="feat: #4 HTML Form done" />
     <MESSAGE value="feat: #5 Survey Form- Certificate in progress. step 10 done" />
     <MESSAGE value="feat: #5 Survey Form- Certificate in progress. step 14 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: #5 Survey Form- Certificate in progress. step 14 done" />
+    <MESSAGE value="feat: #5 Survey Form- Certificate done" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: #5 Survey Form- Certificate done" />
   </component>
 </project>

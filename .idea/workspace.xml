@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c805bed-69bb-40dc-bff9-3f36ef1a9562" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sandbox-it-kamasutra/html/6-css-box-model.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox-it-kamasutra/html/6-css-box-model.html" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox-it-kamasutra/html/6-css-box-model.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox-it-kamasutra/html/6-css-box-model.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox-it-kamasutra/html/6-css-box-model.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,7 @@
       <workItem from="1700407979013" duration="16905000" />
       <workItem from="1700688029267" duration="3681000" />
       <workItem from="1700773246506" duration="1624000" />
-      <workItem from="1700933140337" duration="2818000" />
+      <workItem from="1700933140337" duration="3120000" />
     </task>
     <task id="LOCAL-00001" summary="feat: before freecodecamp tasks added">
       <created>1699310983826</created>
@@ -273,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700774695560</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="feat: #6 Rothko Painting- done step 12">
+      <created>1700948063416</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1700948063416</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +307,7 @@
     <MESSAGE value="feat: #5 Survey Form- Certificate in progress. step 14 done" />
     <MESSAGE value="feat: #5 Survey Form- Certificate done" />
     <MESSAGE value="feat: #6 Rothko Painting- done step 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: #6 Rothko Painting- done step 4" />
+    <MESSAGE value="feat: #6 Rothko Painting- done step 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: #6 Rothko Painting- done step 12" />
   </component>
 </project>

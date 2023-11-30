@@ -915,17 +915,38 @@
 //==========================================================
 
 //7 kyu Friend or Foe?
-function friend(friends){
-	//your code here
-	for (let i = 0; i < friends.length; i++) {
-		if (friends[i].lenght < 4) {
-			return true
-		} else {
-			return false
+// function friend(friends){
+// 	// //your code here
+// 	// let arr = [];
+// 	// for (let i=0; i<friends.length; i++) {
+// 	// 	if (friends[i].length === 4) {
+// 	// 		arr.push(friends[i])
+// 	// 	}
+// 	// }
+// 	// return arr
+//
+// 	return friends.filter(f => f.length === 5)
+// }
+//
+// console.log(friend(["Ryan", "Kieran", "Jason", "Yous"]))
+
+//==========================================================
+//7 kyu Categorize New Member
+
+function openOrSenior(data){
+	let result = [];
+	for (let i = 0; i < data.length; i++) {
+		for (let j = 0; j < data[i].length; j++) {
+			if (j[0] < 55 || j[1]< 7) {
+				result.push('Open')
+			} else {
+				result.push('Senior')
+			}
 		}
 	}
-
-
+	return result
 }
 
-console.log(friend(["Ryan", "Kieran", "Mark"]))
+let array = [[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]]
+console.log(openOrSenior([[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]]))
+console.log(array[2][0])

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5c805bed-69bb-40dc-bff9-3f36ef1a9562" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sandbox-it-kamasutra/html/7-css-flexbox-fotogallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox-it-kamasutra/html/7-css-flexbox-fotogallery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sandbox-it-kamasutra/html/7-css-flexbox-fotogallery.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox-it-kamasutra/html/7-css-flexbox-fotogallery.module.css" afterDir="false" />
     </list>
@@ -31,17 +30,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Pogramming/it-kamasutra.com/react-kbazda-kak-prosto/projects/html-codewars-etc/sandbox-it-kamasutra/html&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Pogramming/it-kamasutra.com/react-kbazda-kak-prosto/projects/01-first-project/react-kabzda-social_net_v4",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Pogramming\it-kamasutra.com\react-kbazda-kak-prosto\projects\html-codewars-etc\sandbox-it-kamasutra\html" />
@@ -85,7 +84,7 @@
       <workItem from="1700773246506" duration="1624000" />
       <workItem from="1700933140337" duration="3598000" />
       <workItem from="1701112282568" duration="8777000" />
-      <workItem from="1701347244585" duration="5970000" />
+      <workItem from="1701347244585" duration="9614000" />
     </task>
     <task id="LOCAL-00001" summary="feat: before freecodecamp tasks added">
       <created>1699310983826</created>
@@ -311,14 +310,20 @@
       <option name="project" value="LOCAL" />
       <updated>1701286555034</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="feat: #7 Photo Gallery - step 15 done">
+      <created>1701371969976</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1701371969976</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: #1 task 'Cats photo' - done step 50" />
     <MESSAGE value="feat: #1 task 'Cats photo' - done" />
     <MESSAGE value="feat: #2 Building Cafe Menu in progress - 20 step done" />
     <MESSAGE value="feat: # Battle Ship in progress" />
@@ -343,6 +348,7 @@
     <MESSAGE value="feat: #6 Rothko Painting- done step 30" />
     <MESSAGE value="feat: #6 Rothko Painting- done" />
     <MESSAGE value="feat: #7 Photo Gallery - step 7 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: #7 Photo Gallery - step 7 done" />
+    <MESSAGE value="feat: #7 Photo Gallery - step 15 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: #7 Photo Gallery - step 15 done" />
   </component>
 </project>

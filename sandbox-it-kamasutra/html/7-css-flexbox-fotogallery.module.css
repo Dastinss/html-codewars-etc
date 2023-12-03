@@ -19,13 +19,25 @@ body {
 
 .gallery {
     display: flex;
-    flex-direction: row-revrse;
+    flex-direction: row;
+    flex-wrap: wrap;/* перенос картинок на др рядок если заканчивается место в текущей*/
+    justify-content: center;/* центрирование картинок внутри гибкого контейнера*/
+    align-items: center; /* вертикально центруємо зображення. Властивість align-items розміщує гнучкий вміст по поперечних осях. В цьому разі, ваш flex-direction встановлений на row, тож поперечні осі будуть вертикальні. */
+    gap: 16px; /*пространство между картинками*/
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
 }
 
 .gallery img {
     width: 100%;
     max-width: 350px;
     height: 300px;
-    flex-wrap: wrap;/* перенос картинок на др рядок если заканчивается место в текущей*/
-    justify-content: center;/* центрирование картинок внутри гибкого контейнера*/
+    object-fit: cover; /* Це скаже зображенню заповнити контейнер img зі збереженням співвідношення сторін, що призведе до обрізки*/
+    border-radius: 10px;
+}
+
+.gallery::after{ /*добавили еще одно место (пустое) под котика в конец имеющимся*/
+    content: '';
+    width: 350px;
 }
